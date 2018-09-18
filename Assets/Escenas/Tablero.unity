@@ -375,6 +375,7 @@ GameObject:
   - component: {fileID: 207560211}
   - component: {fileID: 207560210}
   - component: {fileID: 207560209}
+  - component: {fileID: 207560212}
   m_Layer: 0
   m_Name: Moneda14
   m_TagString: Untagged
@@ -436,7 +437,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 207560207}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -449,6 +450,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 207560207}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &207560212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 207560207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &227649849
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,6 +472,7 @@ GameObject:
   - component: {fileID: 227649853}
   - component: {fileID: 227649852}
   - component: {fileID: 227649851}
+  - component: {fileID: 227649854}
   m_Layer: 0
   m_Name: Moneda12
   m_TagString: Untagged
@@ -521,7 +534,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 227649849}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -534,6 +547,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 227649849}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &227649854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 227649849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &323431802
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,6 +569,7 @@ GameObject:
   - component: {fileID: 323431806}
   - component: {fileID: 323431805}
   - component: {fileID: 323431804}
+  - component: {fileID: 323431807}
   m_Layer: 0
   m_Name: Moneda2
   m_TagString: Untagged
@@ -606,7 +631,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 323431802}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -619,6 +644,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 323431802}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &323431807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 323431802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &424951335
 GameObject:
   m_ObjectHideFlags: 0
@@ -695,6 +731,7 @@ GameObject:
   - component: {fileID: 446929763}
   - component: {fileID: 446929762}
   - component: {fileID: 446929761}
+  - component: {fileID: 446929764}
   m_Layer: 0
   m_Name: Moneda16
   m_TagString: Untagged
@@ -756,7 +793,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 446929759}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -769,6 +806,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 446929759}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &446929764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 446929759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &472228692
 GameObject:
   m_ObjectHideFlags: 0
@@ -964,6 +1012,7 @@ GameObject:
   - component: {fileID: 564967013}
   - component: {fileID: 564967012}
   - component: {fileID: 564967011}
+  - component: {fileID: 564967014}
   m_Layer: 0
   m_Name: Moneda15
   m_TagString: Untagged
@@ -1025,7 +1074,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 564967009}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -1038,6 +1087,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 564967009}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &564967014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 564967009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &622065664
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,6 +1109,7 @@ GameObject:
   - component: {fileID: 622065668}
   - component: {fileID: 622065667}
   - component: {fileID: 622065666}
+  - component: {fileID: 622065669}
   m_Layer: 0
   m_Name: Moneda8
   m_TagString: Untagged
@@ -1110,7 +1171,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 622065664}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -1123,6 +1184,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 622065664}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &622065669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 622065664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &647183222
 GameObject:
   m_ObjectHideFlags: 0
@@ -1134,6 +1206,7 @@ GameObject:
   - component: {fileID: 647183226}
   - component: {fileID: 647183225}
   - component: {fileID: 647183224}
+  - component: {fileID: 647183227}
   m_Layer: 0
   m_Name: Moneda10
   m_TagString: Untagged
@@ -1195,7 +1268,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 647183222}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -1208,6 +1281,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 647183222}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &647183227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 647183222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &651585842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1304,6 +1388,7 @@ GameObject:
   - component: {fileID: 758464437}
   - component: {fileID: 758464436}
   - component: {fileID: 758464435}
+  - component: {fileID: 758464438}
   m_Layer: 0
   m_Name: Moneda11
   m_TagString: Untagged
@@ -1365,7 +1450,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 758464433}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -1378,6 +1463,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 758464433}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &758464438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 758464433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &769311007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1473,6 +1569,7 @@ GameObject:
   - component: {fileID: 774721651}
   - component: {fileID: 774721650}
   - component: {fileID: 774721649}
+  - component: {fileID: 774721652}
   m_Layer: 0
   m_Name: Moneda6
   m_TagString: Untagged
@@ -1534,7 +1631,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 774721647}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -1547,6 +1644,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 774721647}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &774721652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 774721647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &812871899
 GameObject:
   m_ObjectHideFlags: 0
@@ -1978,6 +2086,7 @@ GameObject:
   - component: {fileID: 1060875991}
   - component: {fileID: 1060875990}
   - component: {fileID: 1060875989}
+  - component: {fileID: 1060875992}
   m_Layer: 0
   m_Name: Moneda9
   m_TagString: Untagged
@@ -2039,7 +2148,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1060875987}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -2052,6 +2161,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1060875987}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1060875992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1060875987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1072757099
 GameObject:
   m_ObjectHideFlags: 0
@@ -2428,6 +2548,7 @@ GameObject:
   - component: {fileID: 1301604047}
   - component: {fileID: 1301604046}
   - component: {fileID: 1301604045}
+  - component: {fileID: 1301604048}
   m_Layer: 0
   m_Name: Moneda4
   m_TagString: Untagged
@@ -2489,7 +2610,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1301604043}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -2502,6 +2623,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1301604043}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1301604048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1301604043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1332459846
 GameObject:
   m_ObjectHideFlags: 0
@@ -2513,6 +2645,7 @@ GameObject:
   - component: {fileID: 1332459850}
   - component: {fileID: 1332459849}
   - component: {fileID: 1332459848}
+  - component: {fileID: 1332459851}
   m_Layer: 0
   m_Name: Moneda13
   m_TagString: Untagged
@@ -2574,7 +2707,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1332459846}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -2587,6 +2720,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1332459846}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1332459851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1332459846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1434462030
 GameObject:
   m_ObjectHideFlags: 0
@@ -2598,6 +2742,7 @@ GameObject:
   - component: {fileID: 1434462034}
   - component: {fileID: 1434462033}
   - component: {fileID: 1434462032}
+  - component: {fileID: 1434462035}
   m_Layer: 0
   m_Name: Moneda7
   m_TagString: Untagged
@@ -2659,7 +2804,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1434462030}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -2672,6 +2817,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1434462030}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1434462035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1434462030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1435223245
 GameObject:
   m_ObjectHideFlags: 0
@@ -2683,6 +2839,7 @@ GameObject:
   - component: {fileID: 1435223249}
   - component: {fileID: 1435223248}
   - component: {fileID: 1435223247}
+  - component: {fileID: 1435223250}
   m_Layer: 0
   m_Name: Moneda17
   m_TagString: Untagged
@@ -2744,7 +2901,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1435223245}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -2757,6 +2914,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1435223245}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1435223250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1435223245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1456383025
 GameObject:
   m_ObjectHideFlags: 0
@@ -2768,6 +2936,7 @@ GameObject:
   - component: {fileID: 1456383029}
   - component: {fileID: 1456383028}
   - component: {fileID: 1456383027}
+  - component: {fileID: 1456383030}
   m_Layer: 0
   m_Name: Moneda1
   m_TagString: Untagged
@@ -2829,7 +2998,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1456383025}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -2842,6 +3011,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1456383025}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1456383030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1456383025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1462612440
 GameObject:
   m_ObjectHideFlags: 0
@@ -2853,6 +3033,7 @@ GameObject:
   - component: {fileID: 1462612444}
   - component: {fileID: 1462612443}
   - component: {fileID: 1462612442}
+  - component: {fileID: 1462612445}
   m_Layer: 0
   m_Name: Moneda3
   m_TagString: Untagged
@@ -2914,7 +3095,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1462612440}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -2927,6 +3108,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1462612440}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1462612445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1462612440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1784236985
 GameObject:
   m_ObjectHideFlags: 0
@@ -2938,6 +3130,7 @@ GameObject:
   - component: {fileID: 1784236989}
   - component: {fileID: 1784236988}
   - component: {fileID: 1784236987}
+  - component: {fileID: 1784236990}
   m_Layer: 0
   m_Name: Moneda18
   m_TagString: Untagged
@@ -2999,7 +3192,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1784236985}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -3012,6 +3205,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1784236985}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1784236990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1784236985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1824016079
 GameObject:
   m_ObjectHideFlags: 0
@@ -3492,6 +3696,7 @@ GameObject:
   - component: {fileID: 2130143080}
   - component: {fileID: 2130143079}
   - component: {fileID: 2130143078}
+  - component: {fileID: 2130143081}
   m_Layer: 0
   m_Name: Moneda5
   m_TagString: Untagged
@@ -3553,7 +3758,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2130143076}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -3566,3 +3771,14 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2130143076}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2130143081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2130143076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e6b8c2703c71b4497f4113cef82974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
