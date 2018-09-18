@@ -1213,6 +1213,7 @@ GameObject:
   - component: {fileID: 1072757103}
   - component: {fileID: 1072757102}
   - component: {fileID: 1072757101}
+  - component: {fileID: 1072757104}
   m_Layer: 0
   m_Name: ParedMovil2
   m_TagString: Untagged
@@ -1287,6 +1288,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1072757099}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1072757104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1072757099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63648d8109f1d664c84c33086a1fd953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direccion: {x: 0, y: 1, z: 0}
 --- !u!1 &1182166546
 GameObject:
   m_ObjectHideFlags: 0
@@ -1382,6 +1395,7 @@ GameObject:
   - component: {fileID: 1244307170}
   - component: {fileID: 1244307169}
   - component: {fileID: 1244307168}
+  - component: {fileID: 1244307171}
   m_Layer: 0
   m_Name: ParedMovil3
   m_TagString: Untagged
@@ -1456,6 +1470,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1244307166}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1244307171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1244307166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63648d8109f1d664c84c33086a1fd953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direccion: {x: 0, y: 1, z: 0}
 --- !u!1 &1824016079
 GameObject:
   m_ObjectHideFlags: 0
@@ -1819,6 +1845,7 @@ GameObject:
   - component: {fileID: 2107641732}
   - component: {fileID: 2107641731}
   - component: {fileID: 2107641730}
+  - component: {fileID: 2107641733}
   m_Layer: 0
   m_Name: ParedMovil1
   m_TagString: Untagged
@@ -1893,3 +1920,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2107641728}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2107641733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2107641728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63648d8109f1d664c84c33086a1fd953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direccion: {x: 0, y: -1, z: 0}
