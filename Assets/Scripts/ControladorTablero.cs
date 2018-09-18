@@ -5,6 +5,7 @@ using UnityEngine;
 public class ControladorTablero : MonoBehaviour {
     
     public float velocidad = 20;
+    private float limiteRotacion = 0.15f;
 
 	void Update () {
         ControlarTablero();
@@ -12,28 +13,24 @@ public class ControladorTablero : MonoBehaviour {
 
     void ControlarTablero()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) && transform.rotation.x < limiteRotacion)
         {
             transform.Rotate(velocidad * Time.deltaTime, 0, 0);
-            Debug.Log("Rotación: " + transform.rotation.x);
         }
 
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A) && transform.rotation.z < limiteRotacion)
         {
             transform.Rotate(0, 0, velocidad * Time.deltaTime);
-            Debug.Log("Rotación: " + transform.rotation.z);
         }
 
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.S) && transform.rotation.x > -limiteRotacion)
         {
             transform.Rotate(-velocidad * Time.deltaTime, 0, 0);
-            Debug.Log("Rotación: " + transform.rotation.x);
         }
 
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D) && transform.rotation.z > -limiteRotacion)
         {
             transform.Rotate(0, 0, -velocidad * Time.deltaTime);
-            Debug.Log("Rotación: " + transform.rotation.z);
         }
     }
 }
