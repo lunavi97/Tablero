@@ -4,25 +4,32 @@ using UnityEngine;
 
 public class ControladorTablero : MonoBehaviour {
     
+    public float velocidad = 20;
+
 	void Update () {
-		if (Input.GetKey(KeyCode.W))
+        ControlarTablero();
+	}
+
+    void ControlarTablero()
+    {
+        if (Input.GetKey(KeyCode.W))
         {
-            Debug.Log("Tecla Arriba pulsada");
+            transform.Rotate(velocidad * Time.deltaTime, 0, 0);
         }
 
         else if (Input.GetKey(KeyCode.A))
         {
-            Debug.Log("Tecla Izquierda pulsada");
+            transform.Rotate(0, 0, velocidad * Time.deltaTime);
         }
 
         else if (Input.GetKey(KeyCode.S))
         {
-            Debug.Log("Tecla Abajo pulsada");
+            transform.Rotate(-velocidad * Time.deltaTime, 0, 0);
         }
 
         else if (Input.GetKey(KeyCode.D))
         {
-            Debug.Log("Tecla Derecha pulsada");
+            transform.Rotate(0, 0, -velocidad * Time.deltaTime);
         }
-	}
+    }
 }
